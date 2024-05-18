@@ -1,0 +1,64 @@
+.App{
+  background-color:white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+body{
+    background-color: #FFCDEA;
+}
+ .crossed{
+  text-decoration: line-through 2px #7469B6;
+  background-color: #E2DFD0;
+  font-family:"Comfortaa", sans-serif;
+  font-size: 25px;
+ }
+ ul,li{
+  list-style-type: none;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 5px; 
+ }
+ h1{
+  font-family: "Sedan SC", serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #7469B6;
+ }
+ .container{
+  display: flex;
+  justify-content: center;
+ }
+ .add-btn{
+  background: #65aa06;
+  margin-top: 8px;
+ }
+ .delete-btn{
+  background: #C40C0C;
+  margin-bottom: 5px;
+ }
+ .btn{
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  font-family:"Sedan SC", serif ;
+ }
+ .imgas{
+  margin-top: 5px;
+ }
+ .li{
+  font-family:"Comfortaa", sans-serif;
+  font-size: 25px;
+  
+ }
+ input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family:"Comfortaa", sans-serif ;
+ }
+img{
+  border-radius: 50%;
+}
